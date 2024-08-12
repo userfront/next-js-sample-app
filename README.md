@@ -1,4 +1,4 @@
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FMeredithSchmidt%2FnextApp&project-name=nextproject&integration-ids=oac_cNber98Way2tpblRNJAWff6O)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fuserfront%2Fnext-js-sample-app&project-name=nextproject&integration-ids=oac_cNber98Way2tpblRNJAWff6O)
 
 # Userfront Next 14 Example
 
