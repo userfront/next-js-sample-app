@@ -25,8 +25,9 @@ export default function Header() {
             </>
           ) : (
             <>
-              <Link href="/login">Login</Link>
-              <Link href="/signup">Signup</Link>
+              <Link href='/login'>Login</Link>
+              <Link href='/signup'>Signup</Link>
+              <Link href='/reset'>Reset Password</Link>
             </>
           )}
         </div>
