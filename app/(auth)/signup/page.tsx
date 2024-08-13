@@ -1,4 +1,4 @@
-import { SignupForm } from '@userfront/next/client';
+import { SignupForm } from "@userfront/next/client";
 
 export default function SignupPage() {
   return <SignupForm />;
