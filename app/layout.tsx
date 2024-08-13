@@ -13,7 +13,8 @@ export default function RootLayout({
       <body>
         <div className="flex flex-col size-full max-w-5xl p-4 md:p-8 mx-auto min-h-screen">
           <UserfrontProvider
-            tenantId={process.env.NEXT_PUBLIC_USERFRONT_TENANT_ID!}
+            tenantId={process.env.NEXT_PUBLIC_USERFRONT_WORKSPACE_ID}
+            loginRedirect="/dashboard"
           >
             <Header />
             {children}

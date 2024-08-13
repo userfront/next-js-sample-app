@@ -21,8 +21,8 @@ export default function Home() {
       <div className="max-w-md flex flex-col gap-2">
         <p>Hi! 👋</p>
         <p>
-          You have a working Nextjs app using Vercel's infrastucture and
-          Userfront's authentication. You can:
+          You have a working Nextjs app using Vercel&apos;s infrastucture and
+          Userfront&apos;s authentication. You can:
         </p>
         <ol className="list-decimal pl-8">
           <li>
