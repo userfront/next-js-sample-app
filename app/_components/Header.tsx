@@ -1,25 +1,32 @@
-'use client'
+"use client";
 
-import Link from 'next/link';
-import { useUserfront } from '@userfront/next/client';
+import Link from "next/link";
+import { useUserfront } from "@userfront/next/client";
 
 export default function Header() {
   const { isAuthenticated, logout } = useUserfront();
 
   return (
-    <header className='p-4'>
-      <nav className='flex justify-between items-center'>
-        <Link href='/' className='text-lg font-bold'>My App</Link>
-        <div>
+    <header className="p-4">
+      <nav className="flex justify-between items-center">
+        <Link href="/" className="text-lg font-bold">
+          Home
+        </Link>
+        <div className="flex gap-4">
           {isAuthenticated ? (
             <>
-              <Link href='/dashboard' className='mr-4'>Dashboard</Link>
-              <button onClick={() => logout({ redirect: '/login' })} className='bg-blue-500 text-white px-4 py-2 rounded'>Logout</button>
+              <Link href="/dashboard">Dashboard</Link>
+              <button
+                onClick={() => logout({ redirect: "/login" })}
+                className="bg-blue-500 rounded"
+              >
+                Logout
+              </button>
             </>
           ) : (
             <>
-              <Link href='/login' className='mr-4'>Login</Link>
-              <Link href='/signup' className='mr-4'>Signup</Link>
+              <Link href="/login">Login</Link>
+              <Link href="/signup">Signup</Link>
             </>
           )}
         </div>
